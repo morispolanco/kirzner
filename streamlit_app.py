@@ -3,11 +3,11 @@ import gateway
 
 def header():
     st.header('Entrevista con Israel Kirzner')
-    st.markdown("##### Interactúa con Israel Kirzner.")
+    st.markdown("##### Interactúa con Israel Kirzner")
     st.text('version 0 - Last update 08/19/2022')
 
 def instert_text():
-    txt = st.text_area("Pregúntele al Dr. Kirzner")
+    txt = st.text_area("© Moris Polanco, para Univrsidad de Occidente")
     colum1, colum2,colum3,colum4,colum5 = st.columns([1,1,1,1,1])
 
     if colum1.button("Pregunte"):
