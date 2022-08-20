@@ -4,7 +4,7 @@ import gateway
 def header():
     st.header('Entrevista con Israel Kirzner')
     st.markdown("##### Pregunte a Israel Kirzner")
-    st.text('version 0 - Last update 08/19/2022')
+    st.text('Version 0 - Last update 08/19/2022')
 
 def instert_text():
     txt = st.text_area("© 2022 por Moris Polanco, para Universidad de Occidente")
