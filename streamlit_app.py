@@ -7,7 +7,7 @@ def header():
     st.text('Version 0 - Last update 08/19/2022')
 
 def instert_text():
-    txt = st.text_area("© 2022 por Moris Polanco, para Universidad de Occidente")
+    txt = st.text_area("© 2022 por Moris Polanco, para la Universidad de Occidente")
     colum1, colum2,colum3,colum4,colum5 = st.columns([1,1,1,1,1])
 
     if colum1.button("Pregunte"):
