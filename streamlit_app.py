@@ -3,7 +3,7 @@ import gateway
 
 def header():
     st.header('Entrevista con Israel Kirzner')
-    st.markdown("##### Pregunte a Israel Kirzner")
+    st.markdown("##### Programa de inteligencia artificial GPT-3-Davinci")
     st.text('Version 0 - Last update 08/19/2022')
 
 def instert_text():
