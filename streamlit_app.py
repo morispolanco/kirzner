@@ -8,7 +8,7 @@ def header():
 
 def instert_text():
     txt = st.text_area("© 2022 por asesorialinguistica.online. Este programa se realizó con la cooperación de los alumnos del seminario «Creatividad, capitalismo y justicia distributiva en Israel Kirzner» del programa de doctorado de la Universidad de Occidente (Guatemala).")
-    txt = st.text_area("Para saber lo que Israel Kirzner opinaría sobre cualquier tema, escriba su pregunta en el cuadro y haga clic en «Pregunte».)
+    txt = st.text_area("Para saber lo que Israel Kirzner opinaría sobre cualquier tema, escriba su pregunta en el cuadro y haga clic en «Pregunte».")
     colum1, colum2,colum3,colum4,colum5 = st.columns([1,1,1,1,1])
 
     if colum1.button("Pregunte"):
