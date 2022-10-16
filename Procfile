@@ -1,1 +1,1 @@
-web python streamlit_app.py
+web: python3 streamlit_app.py
